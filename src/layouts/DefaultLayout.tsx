@@ -5,7 +5,7 @@ import { Header } from "../components/header";
 export function DefaultLayout() {
     return (
         <div 
-            className="min-h-screen bg-azure-50 text-neutral-600" >
+            className=" bg-azure-50 text-neutral-600" >
             <Header />
                 <Outlet />
             <Footer />

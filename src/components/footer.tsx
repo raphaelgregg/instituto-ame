@@ -2,7 +2,7 @@ import { Facebook, Mail, Instagram, Phone, MapPin } from "lucide-react";
 
 export function Footer() {
     return (
-        <div className="bg-azure-500 text-azure-100 py-8 absolute inset-x-0 bottom-0">
+        <div className="bg-azure-500 text-azure-100 py-8">
             <div className="max-w-7xl m-auto flex flex-col gap-8">
                 <div className="flex justify-between items-center">
                     <img
