@@ -10,7 +10,7 @@ export default {
         sans: ['Inter']
       },
       backgroundImage: {
-        'banner-header': "url('/public/banner.png')",      },
+        'banner-header': "url('/banner.png')",      },
       colors: {
         'azure-50': '#EFFAFF',
         'azure-100': '#DEF3FF',

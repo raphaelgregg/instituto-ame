@@ -5,7 +5,7 @@ export function Header() {
         <nav className="max-w-7xl m-auto h-20 flex items-center gap-8">
             <div className="flex justify-between flex-1">
                 <a href="/">
-                    <img src="./logo.svg" alt="logo ama+" />
+                    <img src="/logo.svg" alt="logo ama+" />
                 </a>
                 
                 <ul className="flex flex-1 justify-center items-center gap-8">
