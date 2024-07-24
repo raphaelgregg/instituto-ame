@@ -9,8 +9,16 @@ export default {
       fontFamily: {
         sans: ['Inter']
       },
+      spacing: {
+        '160': '40rem',
+      },
+      boxShadow: {
+        'custom': '1px 4px 12px rgba(0, 0, 0, 0.25)',
+      },
       backgroundImage: {
-        'banner-header': "url('/banner.png')",      },
+        'banner-about': "url('/banner-about.png')",
+        'banner-brief': "url('/banner-brief.png')",      
+      },
       colors: {
         'azure-50': '#EFFAFF',
         'azure-100': '#DEF3FF',
