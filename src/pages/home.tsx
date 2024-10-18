@@ -1,6 +1,12 @@
 import { HandCoins, HandHeart, Handshake } from "lucide-react"
+import { Carousel } from "../components/carousel";
 
 export function Home() {
+    const settings = {
+        spaceBetween: 32,
+        slidesPerView: 4,
+    }
+
     return (
         <div>
             {/* BRIEF */}
@@ -105,8 +111,8 @@ export function Home() {
 
             {/* PROJECTS */}
             <div className="max-w-7xl flex justify-evenly m-auto py-24">
-                <h2>Nossos projetos</h2>
-                <p>Projetos que Transformam Vidas e Constroem Futuros Brilhantes</p>
+                <h2 className="text-4xl font-bold">Nossos projetos</h2>
+                <p className="text-gray-700">Projetos que Transformam Vidas e Constroem Futuros Brilhantes</p>
 
                 <div>
 
@@ -114,13 +120,10 @@ export function Home() {
             </div>
 
             {/* PARCERIAS */}
-            <div className="max-w-7xl flex justify-evenly m-auto py-24">
-                <h2 className="font-">Empresas parceiras</h2>
+            <div className="max-w-7xl flex flex-col items-center gap-4 m-auto py-24">
+                <h2 className="text-4xl font-bold">Empresas parceiras</h2>
                 <p className="text-gray-700">Seja uma empresa parceira dos nossos projetos agora! <a href="#" className="font-bold text-red-500">[Aqui]</a></p>
 
-                <div>
-                    
-                </div>
             </div>
         </div>
     )
